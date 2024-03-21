@@ -32,11 +32,6 @@ sample_file: config/samples_sarakina.tsv
 ##        ind2:  path_to_bam2.bam
 ##        ...
 
-##external_sample: 
-##    hg19:
-##       test1: /users/sneuensc/work_sneuensc/mapping_pipeline/mapache_test2/results/03_sample/03_final_sample/01_bam/ind1.hg19.bam
-##        test2: /users/sneuensc/work_sneuensc/mapping_pipeline/mapache_test2/results/03_sample/03_final_sample/01_bam/ind2.hg19.bam
-
 ## if the deliminator to read the sample file has to be adapted
 #delim: "\s+"
 
@@ -55,8 +50,7 @@ result_dir: 'results_sarakina'
 # Include meaningful names for each genome. Final BAM(s) file will be named after it 
 # (e.g., ind1.hg19.bam)
 genome: 
-    hs37d5: /home/psonis/ref_genomes/human/hs37d5.fa
-#    rCRS: /home/psonis/ref_genomes/human/rCRS.fa
+    hs37d5: /home/ref_genomes/hs37d5.fa
 
 ##########################################################################################
 # Mapping workflow
