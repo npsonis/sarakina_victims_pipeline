@@ -1,6 +1,6 @@
 # sarakina_victims_pipeline
 
-These are the post-mapache bash scripts used to perform analyses in the paper of Psonis et al. 2023.
+These are the post-mapache bash scripts used to perform analyses in the paper of Psonis et al. 2024 https://doi.org/10.1016/j.fsigen.2024.103060.
 They are separated into two main pipelines, one fo the living relatives (to be performed first) and a second for the victims.
 
 The scripts are provided for the shake of reprodusability of the results, but also for free use by the scientific community.
